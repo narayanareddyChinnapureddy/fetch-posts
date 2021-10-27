@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+h1 {
+	font-size: 50px;
+	color: darkgreen;
+	margin: 20px 0 30px 20px;
+}
+
+button {
+	outline: none;
+	border: none;
+	padding: 5px 10px;
+	background: violet;
+	border-radius: 5px;
+	font-size: 20px;
+	margin-left: 20px;
+	color: #fff;
+	cursor: pointer;
+	opacity: 0.8;
+}
+
+button:hover {
+	opacity: 1;
+}
+
+#results {
+	margin: 20px;
+}
+
+#results h3 {
+	margin-bottom: 5px;
+}
+
+#results p {
+	margin-bottom: 20px;
+}
